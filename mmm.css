@@ -420,12 +420,13 @@ a{
     border-bottom:1 solid #f5f5f5;
 }
 .r0 .r0_3 .r0_3_2{
-    width:173px;
+    width:168px;
     height:auto;
     background-color:#fff;
     border-top:1px solid  #f5f5f5;
     margin-left: 5xp;
-    
+    padding-left: 5px;
+    overflow:hidden;
 }
 .r0 .r0_3 .r0_3_3{
     width:100%;
@@ -510,7 +511,6 @@ a{
 .r0 .r0_3 .r0_3_2 .r0_3_2_2{
     font-size:12px;
     color:#333;
-    margin-right: 60px;
     text-decoration:none;
     padding-left:5px;
 }
@@ -1298,6 +1298,17 @@ a{
     height:530px;
     margin:20px auto; 
     /* background-color: white; */
+    position:relative; 
+}
+.iii{
+    position:absolute; 
+    background-color: #F2F2F2;
+    width: 590px;
+    height: 9px;
+    left: 600px ;
+    top: 255px;
+    z-index: 9999;
+
 }
 .i .i1{
     width:590px;
@@ -1507,6 +1518,16 @@ a{
     width:190px;
     height:360px;
     float:left;
+    position:relative; 
+}
+.lzl{
+    position:absolute;
+    width:190px;
+    height:360px;
+    background-color: rgba(0,0,0,0.03);
+}
+.lzl:hover{
+    background-color: rgba(0,0,0,0);
 }
 .fuzhi .left .ly{
     width:400px;
@@ -1556,6 +1577,7 @@ a{
     background-color:#F9F9F9;
     margin-top:16px;
     float:left;
+    
 }
 .fuzhi .left .ltop .lvv img{
     margin-left:7px;
@@ -1960,7 +1982,7 @@ a{
     top:0;
 }
 .lz:hover .lzz{
-    background: rgba(0,0,5,1);
+    background: rgba(0,0,0,0.05);
 }
 .fuzh .left .ly{
     width:400px;
